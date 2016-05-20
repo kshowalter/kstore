@@ -1,5 +1,5 @@
 {
-  "name": "kdb",
+  "name": "kstore",
   "version": "0.1.0",
   "description": "Database table like storage object.",
   "main": "index.js",
