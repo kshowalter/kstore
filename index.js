@@ -67,7 +67,11 @@ var kdbProto = {
     } else {
       return false;
     }
+  },
+  options: function(name){
+    return Object.keys(this.index[name]);
   }
+
 };
 
 //export default function(input){
