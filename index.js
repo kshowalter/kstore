@@ -74,7 +74,6 @@ var kdbProto = {
 
 };
 
-//export default function(input){
 module.exports = function(input){
 
   var kdbVariables = {
@@ -82,7 +81,6 @@ module.exports = function(input){
     lastId: 0,
     index: {}
   };
-  console.log(typeof kdbProto,typeof x);
   var kdb = Object.create(kdbProto); // propertiesObject parameter fails on Chromium
   kdb = Object.assign(kdb, kdbVariables);
 
